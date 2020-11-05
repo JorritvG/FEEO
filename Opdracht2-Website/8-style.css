@@ -1,0 +1,61 @@
+/* Hier hoef je niks mee te doen */
+*{
+    font-size:0;
+}
+
+#container{
+    width: 900px;
+    height: 600px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
+
+/* Hieronder kun je gaan editen */
+
+#boven {
+    display: inline-block;
+    height: 250px;
+    width: 900px;
+}
+
+#onder {
+    display: inline-block;
+    height: 250px;
+    width: 900px;
+}
+
+#linksboven {
+    display: inline-block;
+    background-color: #c7042c;
+    border-right: 25px solid white;
+    border-bottom: 25px solid white;
+    width: 325px;
+    height: 275px;
+}
+
+#rechtsboven {
+    display: inline-block;
+    background-color: #c7042c;
+    border-left: 25px solid white;
+    border-bottom: 25px solid white;
+    width: 525px;
+    height: 275px;
+}
+
+#linksonder {
+    display: inline-block;
+    background-color: #c7042c;
+    border-top: 25px solid white;
+    border-right: 25px solid white;
+    width: 325px;
+    height: 275px;
+}
+
+#rechtsonder {
+    display: inline-block;
+    background-color: #c7042c;
+    border-top: 25px solid white;
+    border-left: 25px solid white;
+    width: 525px;
+    height: 275px;
+}

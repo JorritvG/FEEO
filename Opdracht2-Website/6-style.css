@@ -1,0 +1,40 @@
+/* Hier hoef je niks mee te doen */
+*{
+    font-size:0;
+}
+
+#container{
+    width: 900px;
+    height: 600px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
+
+/* Hieronder kun je gaan editen */
+
+#links {
+    display: inline-block;
+    width: 300px;
+    height: 600px;
+    background-color: #08935c; 
+}
+
+#rechts {
+    display: inline-block;
+    width: 600px;
+    height: 600px;
+}
+
+#rechtsboven {
+    background-color: #fee524;
+    display: inline-block;
+    width: 600px;
+    height: 300px
+}
+
+#rechtsonder {
+    background-color: #f51635;
+    display: inline-block;
+    width: 600px;
+    height: 300px;
+}

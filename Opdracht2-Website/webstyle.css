@@ -1,0 +1,134 @@
+@font-face {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    src: url(sansation_light.woff);
+  }
+  
+  div {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+#header {
+    font-size: 32px;
+    border-style: solid;
+    text-align: center;
+    color: white;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  #customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  .active {
+    background-color: orange;
+  }
+
+  .hero-image {
+    background-image: url("img/hero1.jpg"); 
+    background-color: #cccccc; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+  }
+
+  .hero-image2 {
+    background-image: url("img/hero1.jpg");
+    background-color: #cccccc; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+  }
+
+#foto1 {
+    max-height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+body {
+  background: rgba(51, 51, 51, 0.9);
+}
+
+.block {
+  font-size: 18px;
+  border-style: solid;
+  text-align: center;
+  color: white;
+  border-bottom: rgba(51, 51, 51, 0.9);
+}
+
+.blocksub {
+  font-size: 18px;
+  border-style: solid;
+  text-align: center;
+  color: white;
+  border-top: rgba(51, 51, 51, 0.9);
+}
+
+.blocksub2 {
+  font-size: 18px;
+  border-style: solid;
+  text-align: center;
+  color: white;
+  border-top: rgba(51, 51, 51, 0.9);
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-style: solid;
+  border-color: black;
+}
+
+#footer-text{
+  color:red;
+}

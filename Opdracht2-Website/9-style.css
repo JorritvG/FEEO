@@ -1,0 +1,84 @@
+/* Hier hoef je niks mee te doen */
+*{
+    font-size:0;
+}
+
+#container{
+    width: 900px;
+    height: 600px;
+    background-color: pink;
+    border: 1px solid black;
+}
+
+/* Hieronder kun je gaan editen */
+
+#boven {
+    display: inline-block;
+    height: 250px;
+    width: 900px;
+}
+
+#onder {
+    display: inline-block;
+    height: 250px;
+    width: 900px;
+}
+
+#linksboven {
+    display: inline-block;
+    background-color: #ef2729;
+    border-right: 25px solid white;
+    border-bottom: 25px solid white;
+    width: 300px;
+    height: 250px;
+}
+
+#tussenboven {
+    display: inline-block;
+    width: 50px;
+    height: 275px;
+    background-color: #002368;
+}
+
+#rechtsboven {
+    display: inline-block;
+    background-color: #ef2729;
+    border-left: 25px solid white;
+    border-bottom: 25px solid white;
+    width: 500px;
+    height: 250px;
+}
+
+#horizmid {
+    display: inline-block;
+    width: 900px;
+    height: 50px;
+    background-color: #002368;
+}
+
+#linksonder {
+    display: inline-block;
+    background-color: #ef2729;
+    border-top: 25px solid white;
+    border-right: 25px solid white;
+    width: 300px;
+    height: 275px;
+}
+
+#tussenonder {
+    display: inline-block;
+    width: 50px;
+    height: 300px;
+    background-color: #002368;
+}
+
+#rechtsonder {
+    display: inline-block;
+    background-color: #ef2729;
+    border-top: 25px solid white;
+    border-left: 25px solid white;
+    width: 500px;
+    height: 275px;
+}
+
+/* Hij komt onder de container uit, weet geen fix */
