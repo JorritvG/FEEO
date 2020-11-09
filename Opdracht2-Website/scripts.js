@@ -31,4 +31,19 @@ function myFunction() {
     leeftijd2.innerText = bezoeker.leeftijd
     woonplaats2.innerText = bezoeker.woonplaats
 
+    if (bezoeker.leeftijd == 16) {
+        document.querySelector("body").style.backgroundColor = 'orange';
+    }
+
+    if (bezoeker.leeftijd == 17) {
+        document.querySelector("body").style.backgroundColor = 'blue';
+    }
+
+    if (bezoeker.leeftijd == 18) {
+        document.querySelector("body").style.backgroundColor = 'gold';
+    }
+
+    if (bezoeker.leeftijd == 19) {
+        document.querySelector("body").style.backgroundColor = 'green';
+    }
 }
