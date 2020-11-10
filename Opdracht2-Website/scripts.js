@@ -46,4 +46,10 @@ function myFunction() {
     if (bezoeker.leeftijd == 19) {
         document.querySelector("body").style.backgroundColor = 'green';
     }
+
+    if (bezoeker.leeftijd == (0 < 19)) {
+        document.querySelector("body").style.backgroundColor = 'white';
+    }
 }
+
+// Geen idee wat ik met de laatste moet doen :(
